@@ -1,0 +1,222 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+            font-size: 1rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            position: relative;
+        }
+
+        nav ul li a::after {
+            content: '';
+            width: 0;
+            height: 3px;
+            background-color: rgb(61, 77, 198);
+            position: absolute;
+            left: 0;
+            bottom: -6px;
+            transition: 0.5s;
+        }
+
+        nav ul li a:hover::after {
+            width: 100%;
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(112, 12, 234);
+            margin: 15px 84px;
+            height: 1.2px;
+        }
+
+        .left {
+            font-size: 1.9rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 40px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 2.5rem;
+        }
+
+        .rightsection img {
+            width: 80%;
+            margin-top: 20px;
+        }
+
+        .purple {
+            color: rgb(50, 6, 194);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(88, 33, 226);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondsection .box {
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 80px;
+        }
+
+        .image-top {
+            width: 30px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 70px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: white;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        /*-----about-----*/
+        #about {
+            padding: 30px 0;
+            color: white;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .about-col1 {
+            flex-basis: 35%;
+        }
+
+        .about-col1 img {
+            width: 80%;
+        }
+
+        .about-col2 {
+            flex-basis: 60%;
+        }
+
+        .about-col2 h1 {
+            font-size: 1.9rem;
+        }
+
+        .tabtitles {
+            display: flex;
+            margin: 20px 0 40px;
+        }
+
+        .tablinks {
+            cursor: pointer;
+            margin-right: 50px;
+            font-size: 18px;
+            font-weight: 500;
+            position: relative;
+        }
+
+        .tablinks::after {
+            content: '';
+            width: 0;
+            height: 3px;
+            background-color: rgb(61, 77, 198);
+            position: absolute;
+            left: 0;
+            bottom: -8px;
+            transition: 0.5s;
+        }
+
+        .tablinks.activelink::after {
+            width: 50%;
+        }
+
+        .tab-contents ul li {
+            list-style: none;
+            margin: 10px, 0;
+        }
+
+        .tab-contents ul li span {
+            color: rgb(81, 94, 190);
+            font-size: 14px;
+        }
+
+        .tab-contents {
+            display: none;
+
+        }
+
+        .tab-contents.active-tab {
+            display: block;
+        }
+    
+
+        .footer{
+            display: flex;
+            height: 10vh;
+            background-color: rgb(29, 23, 40);
+        }

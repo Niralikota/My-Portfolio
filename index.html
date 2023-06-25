@@ -10,20 +10,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    
+
 </head>
 
 <body>
     <header>
         <nav>
-            <div class="left">Nirali's Portfolio</div>
+            <div class="left">Nirali's <span>Portfolio</span></div>
             <div class="right">
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="/">About</a></li>
-                    <li><a href="/">Services</a></li>
-                    <li><a href="/">Projects</a></li>
-                    <li><a href="/">Contact Me</a></li>
+                    <li><a href="/">Contact me</a></li>
+                    <li><a href="/">Skills</a></li>
                 </ul>
             </div>
         </nav>
@@ -37,9 +36,16 @@
                 <div>and I am a passionate</div>
 
                 <span id="element"></span>
+                <div class="btn">
+                    <a href="./document.pdf">download resume</a>
+                    <a href="https://www.linkedin.com/in/nirali-kota-7538a8267/" target="_blank">linkedin</a>
+                    <a href="https://github.com/Niralikota" target="_blank">github</a>
+
+
+                </div>
             </div>
             <div class="rightsection">
-                <image src="./business-woman-g5a1814177_1280.png" alt=""></image>
+                <image src="./pict.jpeg-removebg-preview.png" alt=""></image>
             </div>
         </section>
         <hr>
@@ -48,14 +54,18 @@
             <div class="container">
                 <div class="row">
                     <div class="about-col1">
-                        <img src="./woman-g6f617aa07_1280.png" alt="">
+                        <img src="./profile-removebg-preview.png" alt="">
                     </div>
                     <div class="about-col2">
                         <h1>About Me</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore consectetur perspiciatis
-                            velit ex cum magnam officia ut, deserunt doloremque nulla voluptatum repellat optio
-                            laudantium dicta incidunt reprehenderit! Ducimus laborum exercitationem sit minima vitae
-                            eaque alias sunt, quia ea doloremque.</p>
+                        <p>As a skilled Node.js developer with experience in HTML, CSS, and JavaScript, I am passionate
+                            about building robust, scalable web applications that solve complex problems. My expertise
+                            in MongoDB and MySQL allows me to design efficient and optimized databases, while my
+                            proficiency in GitHub enables me to collaborate effectively with team members and manage
+                            version control. Whether working independently or as part of a team, I thrive in fast-paced
+                            environments and am committed to delivering high-quality work that exceeds expectations. If
+                            you're looking for a dedicated and talented developer to help bring your ideas to life, I
+                            would love to connect.</p>
                         <div class="tabtitles">
                             <p class="tablinks active-link" onclick="opentab('skills')">Skills</p>
                             <p class="tablinks" onclick="opentab('education')">Education</p>
@@ -68,18 +78,30 @@
                                 <li><span>Database</span><br>MongoDB,MySQL</li>
                                 <li><span>Templete engines</span><br>Ejs,Handlebars</li>
                                 <li><span>Plugins</span><br>Bootstramp</li>
+                                <li><span>Learning</span><br>TypeScript,Nestjs</li>
+
                             </ul>
                         </div>
                         <div class="tab-contents" id="education">
                             <ul>
-                                <li><span>Bachelor of Commerse</span><br>Matrushri R.D. kothiya Mahila Commerse College
+                                <li><span>Bachelor of Commerse</span><br>Matrushri R.D. kothiya Mahila Commerse
+                                    College,Khambhaliya
                                 </li>
-                                <li><span>Standard-12</span><br>Shri Vivekananad Saiksanik Sankul Lalpur</li>
+                                <li><span>Standard-12</span><br>Shri Vivekananad Saiksanik Sankul,Lalpur</li>
+                                <li><span>Standard-10</span><br>Shri Vivekananad Saiksanik Sankul,Lalpur</li>
+
                             </ul>
                         </div>
                         <div class="tab-contents" id="experience">
                             <ul>
-                                <li><span>Internship-1 month</span><br>Spark Foundation</li>
+                                <li><span>Internship-1 month</span><br>The Spark Foundation <br>(1-30 June)Remote</li>
+                                <li><span>Internship-1 month</span><br>Oasis Infobyte<br>(15 June-15 July)Remote</li>
+
+
+
+
+
+
 
                             </ul>
                         </div>
@@ -87,6 +109,38 @@
                 </div>
             </div>
         </section>
+        <hr>
+        <section class="contact" id="contact">
+            <div class="contactsection">
+
+
+                <div class="formsection">
+                    <div class="contact-form">
+                        <h1>Contact Me</h1>
+                        <p>I am available for freelance work. Connect with me
+                            via phone: +91-9313439512 or email: niralikota@gmail.com
+                        </p>
+                        <form>
+                            <input type="text" placeholder="Your Name" required>
+                            <input type="email" placeholder="E-mail" id="" name="email" required>
+                            <input type="text" placeholder="Subject" required>
+                            <textarea name="" id="" cols="100" rows="10" placeholder="Your Work" required>
+
+                    </textarea>
+                            <input type="submit" value="Submit" class="btn">
+                        </form>
+                    </div>
+                </div>
+                <div class="imagesection">
+                    <image src="./contact.png" alt=""></image>
+                    <image src="./phone-removebg-preview.png" alt=""></image>
+
+
+
+                </div>
+            </div>
+        </section>
+        <hr>
         <!-- -----------------skills-------------------->
         <section class="secondsection">
             <span class="text-gray">What I have teached so far</span>
@@ -177,30 +231,63 @@
 
 
     </main>
+
     <footer>
         <div class="footer">
-            <h1>Nirali-Developer</h1>
+            <div class="footer-first">
+                <h3>Nirali's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <h4>important links</h4>
+
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+
+            </div>
+            <div class="footer-third">
+                <h3>Social Media</h3>
+                <div class="social">
+                    <p>linkedin</p>
+                    <p>github</p>
+                </div>
+            </div>
+
 
         </div>
+        <div class="footer-text-center">
+            Nirali's portfolio.com | &copy All rights reserved
+        </div>
+
     </footer>
-    
+
+
+
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-          strings: ['Web Developer','Node.js Developer', 'Web Designer'],
-          typeSpeed: 50,
+            strings: ['Web Developer', 'Node.js Developer', 'Web Designer'],
+            typeSpeed: 50,
         });
-      </script> 
-      <script>
-      var tablinks = document.getElementsByClassName('tablinks')
-        var tabcontents = document.getElementsByClassName('tab-contents')
+    </script>
+
+    <script>
+        var tablinks = document.getElementsByClassName('tablinks');
+        var tabcontents = document.getElementsByClassName('tab-contents');
+
         function opentab(tabname) {
             for (tablink of tablinks) {
-                tablink.classList.remove("active-link")
+                tablink.classList.remove("active-link");
             }
             for (tabcontent of tabcontents) {
-                tabcontent.classList.remove("active-tab")
+                tabcontent.classList.remove("active-tab");
             }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+
         }
     </script>
 </body>
